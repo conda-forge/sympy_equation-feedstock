@@ -1,5 +1,5 @@
 {% set name = "sympy_equation" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sympy_equation-{{ version }}.tar.gz
-  sha256: 0d4cca5b359d61b0ca97c2978042cf87f720b11c7a3fdc19243559f1c19e5edc
+  sha256: 88488e3e66a836494185194e4ace756d58a63bd995d86d77d1b32691506aefec
 
 build:
   noarch: python
